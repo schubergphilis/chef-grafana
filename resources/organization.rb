@@ -1,7 +1,7 @@
 actions :create, :update, :delete
 default_action :create_if_missing
 
-state_attrs :organization_name
+state_attrs :name, :organization
 
 # Grafana options
 attribute :host, kind_of: String, default: 'localhost'
